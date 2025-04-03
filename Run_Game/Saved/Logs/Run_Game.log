@@ -2055,3 +2055,28 @@ LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable
 [2025.04.03-21.44.20:125][223]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.04.03-21.44.20:125][223]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.04.03-21.44.20:126][223]AssetCheck: /Game/Runner/Maps/TestMap Validando recurso
+[2025.04.03-21.46.15:532][922]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 339.035614
+[2025.04.03-21.46.15:684][931]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.03-21.46.15:684][931]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 339.169525, Update Interval: 351.252777
+[2025.04.03-21.47.21:314][845]Cmd: DELETE
+[2025.04.03-21.47.21:314][845]Cmd: ACTOR DELETE
+[2025.04.03-21.47.21:326][845]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.03-21.47.21:338][845]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.04.03-21.47.21:340][845]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2025.04.03-21.47.24:557][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2025.04.03-21.47.24:562][ 35]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.03-21.47.24:592][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Runner/Maps/TestMap" FILE="C:/Users/imfel/Documents/MobileGame/Run_Game/Content/Runner/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.04.03-21.47.24:620][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2025.04.03-21.47.24:627][ 35]LogSavePackage: Moving output files for package: /Game/Runner/Maps/TestMap
+[2025.04.03-21.47.24:627][ 35]LogSavePackage: Moving 'C:/Users/imfel/Documents/MobileGame/Run_Game/Saved/TestMap5BC77F9C4AFB87A7CBF0E98C817E68B6.tmp' to 'C:/Users/imfel/Documents/MobileGame/Run_Game/Content/Runner/Maps/TestMap.umap'
+[2025.04.03-21.47.24:637][ 35]LogFileHelpers: Saving map 'TestMap' took 0.045
+[2025.04.03-21.47.24:668][ 35]LogFileHelpers: InternalPromptForCheckoutAndSave took 106.441 ms (total: 268.580 ms)
+[2025.04.03-21.47.24:712][ 35]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.03-21.47.24:712][ 35]LogContentValidation: Enabled validators:
+[2025.04.03-21.47.24:712][ 35]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.03-21.47.24:712][ 35]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.03-21.47.24:712][ 35]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.03-21.47.24:712][ 35]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.03-21.47.24:712][ 35]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.03-21.47.24:712][ 35]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.03-21.47.24:713][ 35]AssetCheck: /Game/Runner/Maps/TestMap Validando recurso
