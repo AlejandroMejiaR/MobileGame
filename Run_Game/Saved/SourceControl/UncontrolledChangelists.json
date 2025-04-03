@@ -6,6 +6,7 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/imfel/Documents/MobileGame/Run_Game/Content/Runner/Maps/TestMap.umap",
+				"C:/Users/imfel/Documents/MobileGame/Run_Game/Content/Runner/Blueprints/BP_RunnerCharacter.uasset",
 				"C:/Users/aleja/Desktop/9/Videojuegos/Run_Game/Content/StarterContent/Particles/P_Ambient_Dust.uasset",
 				"C:/Users/aleja/Desktop/9/Videojuegos/Run_Game/Content/Runner/Maps/TestMap.umap",
 				"C:/Users/aleja/Desktop/9/Videojuegos/Run_Game/Content/Runner/Blueprints/BP_RunnerGameMode.uasset",
