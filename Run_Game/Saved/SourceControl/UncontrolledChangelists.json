@@ -1,0 +1,22 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/aleja/Desktop/9/Videojuegos/Run_Game/Content/StarterContent/Particles/P_Ambient_Dust.uasset",
+				"C:/Users/aleja/Desktop/9/Videojuegos/Run_Game/Content/Runner/Maps/TestMap.umap",
+				"C:/Users/aleja/Desktop/9/Videojuegos/Run_Game/Content/Runner/Blueprints/BP_RunnerGameMode.uasset",
+				"C:/Users/aleja/Desktop/9/Videojuegos/Run_Game/Content/Runner/Blueprints/BP_RunnerCharacter.uasset",
+				"C:/Users/aleja/Desktop/9/Videojuegos/Run_Game/Content/Runner/Blueprints/Move_IA.uasset",
+				"C:/Users/aleja/Desktop/9/Videojuegos/Run_Game/Content/Runner/Blueprints/Jumo_IA.uasset",
+				"C:/Users/aleja/Desktop/9/Videojuegos/Run_Game/Content/Runner/Blueprints/Jum_IA.uasset",
+				"C:/Users/aleja/Desktop/9/Videojuegos/Run_Game/Content/Runner/Blueprints/Jump_IA.uasset",
+				"C:/Users/aleja/Desktop/9/Videojuegos/Run_Game/Content/Runner/Blueprints/Slide_IA.uasset",
+				"C:/Users/aleja/Desktop/9/Videojuegos/Run_Game/Content/Runner/Blueprints/IMC_RunnerDefault.uasset",
+				"C:/Users/aleja/Desktop/9/Videojuegos/Run_Game/Content/Characters/Mannequins/Animations/ABP_Manny.uasset"
+			]
+		}
+	]
+}
