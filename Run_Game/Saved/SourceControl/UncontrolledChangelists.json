@@ -7,6 +7,8 @@
 			"files": [
 				"C:/Users/imfel/Documents/MobileGame/Run_Game/Content/Runner/Maps/TestMap.umap",
 				"C:/Users/imfel/Documents/MobileGame/Run_Game/Content/Runner/Blueprints/BP_RunnerCharacter.uasset",
+				"C:/Users/imfel/Documents/MobileGame/Run_Game/Content/Runner/Blueprints/BP_SpeedUp.uasset",
+				"C:/Users/imfel/Documents/MobileGame/Run_Game/Content/ThirdPerson/Blueprints/BP_SpeedUp.uasset",
 				"C:/Users/imfel/Documents/MobileGame/Run_Game/Content/Runner/Blueprints/BP_Speed.uasset",
 				"C:/Users/imfel/Documents/MobileGame/Run_Game/Content/Runner/Blueprints/Sphere_047DC2F6.uasset",
 				"C:/Users/aleja/Desktop/9/Videojuegos/Run_Game/Content/StarterContent/Particles/P_Ambient_Dust.uasset",
