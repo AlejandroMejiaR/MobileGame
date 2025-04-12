@@ -1,4 +1,4 @@
-﻿Log file open, 04/11/25 19:33:28
+Log file open, 04/11/25 19:33:28
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
@@ -9,6 +9,9 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogWindows: Started CrashReportClient (pid=19124)
 LogWindows: Enabling Tpause support
 LogWindows: Warning: Failed to set completion port for job object "UE.ShaderCompileWorker.JobGroup": El parámetro no es correcto.
+=======
+LogWindows: Started CrashReportClient (pid=34152)
+>>>>>>> origin/Michael
 LogWindows: Custom abort handler registered for crash reporting.
 LogInit: Display: Running engine for game: Run_Game
 LogCore: UTS: Unreal Trace Server launched successfully
@@ -43,8 +46,10 @@ LogConfig: Display: Loading IOS ini files took 0.07 seconds
 LogConfig: Display: Loading Android ini files took 0.07 seconds
 LogAudio: Display: Pre-Initializing Audio Device Manager...
 LogAudio: Display: AudioInfo: 'OPUS' Registered
+LogConfig: Display: Loading VulkanPC ini files took 0.09 seconds
 LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
 LogAudio: Display: AudioInfo: 'OGG' Registered
+LogConfig: Display: Loading Mac ini files took 0.10 seconds
 LogAudio: Display: AudioInfo: 'ADPCM' Registered
 LogAudio: Display: AudioInfo: 'PCM' Registered
 LogConfig: Display: Loading Unix ini files took 0.10 seconds
@@ -54,7 +59,12 @@ LogAudio: Display: AudioInfo: 'BINKA' Registered
 LogConfig: Display: Loading LinuxArm64 ini files took 0.11 seconds
 LogAudio: Display: AudioInfo: 'RADA' Registered
 LogAudio: Display: Audio Device Manager Pre-Initialized
+LogConfig: Display: Loading VisionOS ini files took 0.12 seconds
+LogConfig: Display: Loading TVOS ini files took 0.12 seconds
+LogConfig: Display: Loading Linux ini files took 0.12 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.12 seconds
 LogPluginManager: Looking for build plugins target receipt
+<<<<<<< HEAD
 LogPluginManager: Unable to find target receipt in path: C:/Users/imfel/Documents/MobileGame/Run_Game/Binaries/Win64/*.target
 LogConfig: Display: Loading Windows ini files took 0.06 seconds
 LogConfig: Display: Loading VisionOS ini files took 0.06 seconds
@@ -63,8 +73,8 @@ LogPluginManager: Looking for enabled plugins target receipt
 LogPluginManager: Unable to find target receipt in path: C:/Users/imfel/Documents/MobileGame/Run_Game/Binaries/Win64/*.target
 LogAssetRegistry: Display: Asset registry cache read as 38.8 MiB from C:/Users/imfel/Documents/MobileGame/Run_Game/Intermediate/CachedAssetRegistry_0.bin
 LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
-LogPluginManager: Mounting Engine plugin Bridge
 LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin Bridge
 LogPluginManager: Mounting Engine plugin ChaosVD
 LogPluginManager: Mounting Engine plugin CmdLinkServer
 LogPluginManager: Mounting Engine plugin EnhancedInput
@@ -157,6 +167,7 @@ LogPluginManager: Mounting Engine plugin CharacterAI
 LogPluginManager: Mounting Engine plugin Dataflow
 LogPluginManager: Mounting Engine plugin EditorDataStorage
 LogPluginManager: Mounting Engine plugin EditorTelemetry
+<<<<<<< HEAD
 LogPluginManager: Mounting Engine plugin EditorPerformance
 LogPluginManager: Mounting Engine plugin Fracture
 LogPluginManager: Mounting Engine plugin FullBodyIK
@@ -165,6 +176,15 @@ LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
 LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
 LogPluginManager: Mounting Engine plugin LocalizableMessage
 LogPluginManager: Mounting Engine plugin LowLevelNetTrace
+=======
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin LowLevelNetTrace
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+>>>>>>> origin/Michael
 LogPluginManager: Mounting Engine plugin NFORDenoise
 LogPluginManager: Mounting Engine plugin PlatformCrypto
 LogPluginManager: Mounting Engine plugin PlanarCut
@@ -172,6 +192,7 @@ LogPluginManager: Mounting Engine plugin PythonScriptPlugin
 LogPluginManager: Mounting Engine plugin SkeletalReduction
 LogPluginManager: Mounting Engine plugin StudioTelemetry
 LogPluginManager: Mounting Engine plugin ToolPresets
+<<<<<<< HEAD
 LogPluginManager: Mounting Engine plugin Niagara
 LogPluginManager: Mounting Engine plugin NiagaraSimCaching
 LogPluginManager: Mounting Engine plugin InterchangeEditor
@@ -226,8 +247,14 @@ LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
 LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
 LogPluginManager: Mounting Engine plugin MeshModelingToolset
 LogPluginManager: Mounting Engine plugin Metasound
+<<<<<<< HEAD
 LogPluginManager: Mounting Engine plugin MobilePatchingUtils
 LogPluginManager: Mounting Engine plugin MsQuic
+=======
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+>>>>>>> origin/Michael
 LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
 LogPluginManager: Mounting Engine plugin PropertyAccessEditor
 LogPluginManager: Mounting Engine plugin RigVM
@@ -264,6 +291,7 @@ LogPluginManager: Mounting Engine plugin ConcertSyncCore
 SourceControl: Revision control is disabled
 SourceControl: Revision control is disabled
 SourceControl: Revision control is disabled
+<<<<<<< HEAD
 LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
 LogWindows: File 'WinPixGpuCapturer.dll' does not exist
 PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
@@ -295,12 +323,20 @@ LogInit: Creating http thread with maximum 2147483647 concurrent requests
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
 LogOnline: OSS: Created online subsystem instance for: NULL
 LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+<<<<<<< HEAD
+=======
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+>>>>>>> origin/Michael
 LogInit: ExecutableName: UnrealEditor.exe
-LogInit: Build: ++UE5+Release-5.5-CL-40574608
+LogInit: Build: ++UE5+Release-5.5-CL-39772772
 LogInit: Platform=WindowsEditor
-LogInit: MachineId=dca39f9e4ac7d2234cb0efbf93688363
+LogInit: MachineId=f29018e54f41439648e5518f6efbddef
 LogInit: DeviceId=
-LogInit: Engine Version: 5.5.4-40574608+++UE5+Release-5.5
+LogInit: Engine Version: 5.5.3-39772772+++UE5+Release-5.5
 LogInit: Compatible Engine Version: 5.5.0-37670630+++UE5+Release-5.5
 LogInit: Net CL: 37670630
 LogInit: OS: Windows 11 (24H2) [10.0.26100.3775] (), CPU: 12th Gen Intel(R) Core(TM) i5-12450H, GPU: Intel(R) UHD Graphics
@@ -311,6 +347,10 @@ LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE5+Release-5.5
 LogInit: Command Line: -AUTH_LOGIN=unused -AUTH_PASSWORD=5e4b906864c64fbaa138fca808399ae8 -AUTH_TYPE=exchangecode -epicapp=UE_5.5 -epicenv=Prod -EpicPortal -epicusername=Melynne._ -epicuserid=dd940f3d94a544ac9cab4fdabe9d0ca0 -epiclocale=es-MX -epicsandboxid=ue
 LogInit: Base Directory: D:/Juegos/UE_5.5/Engine/Binaries/Win64/
+=======
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/Win64/
+>>>>>>> origin/Michael
 LogInit: Allocator: Mimalloc
 LogInit: Installed Engine Build: 1
 LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
@@ -1846,3 +1886,26 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.04.12-00.36.09:466][327]LogD3D12RHI: ~FD3D12DynamicRHI
 [2025.04.12-00.36.09:503][327]LogExit: Exiting.
 [2025.04.12-00.36.09:529][327]Log file closed, 04/11/25 19:36:09
+
+[2025.04.03-21.46.59:893][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.5/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 420.069 ms
+[2025.04.03-21.46.59:919][  0]LogWindowsTextInputMethodSystem: Activated input method: Español (Colombia) - (Keyboard).
+[2025.04.03-21.47.00:105][  1]LogAssetRegistry: AssetRegistryGather time 15.3073s: AssetDataDiscovery 0.7290s, AssetDataGather 14.4667s, StoreResults 0.1116s. Wall time 30.4590s.
+	NumCachedDirectories 0. NumUncachedDirectories 1639. NumCachedFiles 0. NumUncachedFiles 7699.
+	BackgroundTickInterruptions 0.
+[2025.04.03-21.47.00:141][  1]LogSourceControl: Uncontrolled asset enumeration started...
+[2025.04.03-21.47.00:145][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2025.04.03-21.47.00:313][  2]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 8.900135
+[2025.04.03-21.47.00:316][  2]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2025.04.03-21.47.00:323][  2]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9.002983
+[2025.04.03-21.47.00:708][  8]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.04.03-21.47.00:709][  9]LogSourceControl: Uncontrolled asset enumeration finished in 0.568381 seconds (Found 0 uncontrolled assets)
+[2025.04.03-21.47.00:817][ 16]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 9.493738
+[2025.04.03-21.47.00:820][ 16]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 1151022895
+[2025.04.03-21.47.00:820][ 16]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9.493738, Update Interval: 307.641235
+[2025.04.03-21.47.01:030][ 31]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: fd8...045 Access[Expires: 2025.04.03-23.47.05 Remaining: 7200.67] Refresh[Expires: 2025-09-30T21:47:05.672Z Remaining: 15552000.67] State: Valid
+[2025.04.03-21.47.01:042][ 32]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Received FUserAuthToken
+[2025.04.03-21.47.01:215][ 42]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Login complete: EOS_Success
+[2025.04.03-21.47.01:215][ 42]LogFab: Display: User logged in
+[2025.04.03-21.47.01:217][ 42]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
+[2025.04.03-21.47.01:334][ 51]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-vsM2ZXWBzUi4qmTleo5_pg-f9rlGk9zJUWLZxWokCl72A]
+>>>>>>> origin/Michael
